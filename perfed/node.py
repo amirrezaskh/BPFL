@@ -12,18 +12,26 @@ from torch.utils.data import DataLoader, Dataset
 from torchvision.transforms import v2, ToTensor
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
-class ResNet18Classifier(nn.Module):
+class LeNet5(nn.Module):
     def __init__(self, num_classes=10):
         super().__init__()
-
-        self.resnet = torchvision.models.resnet18(pretrained=False)
-        self.resnet.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1, bias=False)
-        self.resnet.maxpool = nn.Identity()
-        self.resnet.fc = nn.Linear(self.resnet.fc.in_features, num_classes)
+        self.conv1 = nn.Conv2d(1, 6, kernel_size=5, stride=1)
+        self.ap = nn.AvgPool2d(kernel_size=2, stride=2)
+        self.conv2 = nn.Conv2d(6, 16, kernel_size=5, stride=1)
+        self.fc1 = nn.Linear(16 * 4 * 4, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, num_classes)
+        self.tanh = nn.Tanh()
 
     def forward(self, x):
-        return self.resnet(x)
-
+        x = self.tanh(self.conv1(x))
+        x = self.tanh(self.ap(x))
+        x = self.tanh(self.conv2(x))
+        x = self.tanh(self.ap(x))
+        x = torch.flatten(x, 1)
+        x = self.tanh(self.fc1(x))
+        x = self.tanh(self.fc2(x))
+        return self.fc3(x)
 
 class CustomDataset(Dataset):
     def __init__(self, subset, transform=None):
@@ -62,7 +70,7 @@ class Node:
         self.wd = 1e-4
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.model = ResNet18Classifier(num_classes=10).to(self.device)
+        self.model = LeNet5(num_classes=10).to(self.device)
         self.get_data()
         self.save_random_tests()
 
@@ -74,12 +82,12 @@ class Node:
             v2.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
             v2.ToTensor()
         ])
-        train_dataset = datasets.CIFAR10(
+        train_dataset = datasets.FashionMNIST(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=True,
             download=True
         )
-        test_dataset = datasets.CIFAR10(
+        test_dataset = datasets.FashionMNIST(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=False,
             download=True,
