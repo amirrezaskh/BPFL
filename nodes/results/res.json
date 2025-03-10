@@ -1,662 +1,662 @@
 [
   {
     "round": 1,
-    "new_model_price": 67.38429605960846,
-    "g_model_loss": 0.5658227801322937,
+    "new_model_price": 67.5775808095932,
+    "g_model_loss": 0.5510402321815491,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.5852705240249634,
+        "loss": 0.6435468196868896,
         "delta_local_loss": 0,
-        "delta_gap": 1.7189818620681763,
-        "contribution": 1.7189818620681763,
-        "reward": 74.72228962210396
+        "delta_gap": 1.6652514934539795,
+        "contribution": 1.6652514934539795,
+        "reward": 72.37828087303947
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.5551380515098572,
+        "loss": 0.5595460534095764,
         "delta_local_loss": 0,
-        "delta_gap": 1.7491143345832825,
-        "contribution": 1.7491143345832825,
-        "reward": 75.54561475212918
+        "delta_gap": 1.7492522597312927,
+        "contribution": 1.7492522597312927,
+        "reward": 74.66935631784
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.593932569026947,
+        "loss": 0.5113644599914551,
         "delta_local_loss": 0,
-        "delta_gap": 1.7103198170661926,
-        "contribution": 1.7103198170661926,
-        "reward": 74.48392314237469
+        "delta_gap": 1.797433853149414,
+        "contribution": 1.797433853149414,
+        "reward": 75.95209575764284
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.566062331199646,
+        "loss": 0.47136735916137695,
         "delta_local_loss": 0,
-        "delta_gap": 1.7381900548934937,
-        "contribution": 1.7381900548934937,
-        "reward": 75.24817248339212
+        "delta_gap": 1.8374309539794922,
+        "contribution": 1.8374309539794922,
+        "reward": 77.00026705147769
       }
     ]
   },
   {
     "round": 2,
-    "new_model_price": 68.19531321525574,
-    "g_model_loss": 0.4847210645675659,
+    "new_model_price": 68.5957995057106,
+    "g_model_loss": 0.44921836256980896,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.5120348334312439,
-        "delta_local_loss": 0.07323569059371948,
-        "delta_gap": 0.053787946701049805,
-        "contribution": 0.06351181864738464,
-        "reward": 67.09097293942483
+        "loss": 0.49717414379119873,
+        "delta_local_loss": 0.14637267589569092,
+        "delta_gap": 0.05386608839035034,
+        "contribution": 0.10011938214302063,
+        "reward": 84.31028289705105
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.4974168539047241,
-        "delta_local_loss": 0.05772119760513306,
-        "delta_gap": 0.06840592622756958,
-        "contribution": 0.06306356191635132,
-        "reward": 66.63164236783935
+        "loss": 0.4715318977832794,
+        "delta_local_loss": 0.088014155626297,
+        "delta_gap": 0.07950833439826965,
+        "contribution": 0.08376124501228333,
+        "reward": 71.07326659337802
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.4915443956851959,
-        "delta_local_loss": 0.1023881733417511,
-        "delta_gap": 0.07427838444709778,
-        "contribution": 0.08833327889442444,
-        "reward": 92.22805671611715
+        "loss": 0.4230138957500458,
+        "delta_local_loss": 0.0883505642414093,
+        "delta_gap": 0.1280263364315033,
+        "contribution": 0.1081884503364563,
+        "reward": 90.76746059893543
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.49561697244644165,
-        "delta_local_loss": 0.07044535875320435,
-        "delta_gap": 0.07020580768585205,
-        "contribution": 0.0703255832195282,
-        "reward": 74.04932797661867
+        "loss": 0.4483644664287567,
+        "delta_local_loss": 0.02300289273262024,
+        "delta_gap": 0.10267576575279236,
+        "contribution": 0.0628393292427063,
+        "reward": 53.84898991063547
       }
     ]
   },
   {
     "round": 3,
-    "new_model_price": 68.5500580072403,
-    "g_model_loss": 0.4492465853691101,
+    "new_model_price": 69.1410905122757,
+    "g_model_loss": 0.39468926191329956,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.4862285554409027,
-        "delta_local_loss": 0.025806277990341187,
-        "delta_gap": -0.001507490873336792,
-        "contribution": 0.012149393558502197,
-        "reward": 26.307745967595437
+        "loss": 0.44614341855049133,
+        "delta_local_loss": 0.0510307252407074,
+        "delta_gap": 0.003074944019317627,
+        "contribution": 0.027052834630012512,
+        "reward": 47.647684509139054
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.4449777901172638,
-        "delta_local_loss": 0.05243906378746033,
-        "delta_gap": 0.039743274450302124,
-        "contribution": 0.046091169118881226,
-        "reward": 98.16353790852284
+        "loss": 0.41333287954330444,
+        "delta_local_loss": 0.058199018239974976,
+        "delta_gap": 0.03588548302650452,
+        "contribution": 0.047042250633239746,
+        "reward": 82.05519061918646
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.447297602891922,
-        "delta_local_loss": 0.044246792793273926,
-        "delta_gap": 0.03742346167564392,
-        "contribution": 0.04083512723445892,
-        "reward": 87.19025420698696
+        "loss": 0.4012938141822815,
+        "delta_local_loss": 0.021720081567764282,
+        "delta_gap": 0.047924548387527466,
+        "contribution": 0.034822314977645874,
+        "reward": 61.10009058525338
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.4487851560115814,
-        "delta_local_loss": 0.04683181643486023,
-        "delta_gap": 0.0359359085559845,
-        "contribution": 0.04138386249542236,
-        "reward": 88.33846191689479
+        "loss": 0.38570669293403625,
+        "delta_local_loss": 0.06265777349472046,
+        "delta_gap": 0.0635116696357727,
+        "contribution": 0.06308472156524658,
+        "reward": 109.19703428642113
       }
     ]
   },
   {
     "round": 4,
-    "new_model_price": 68.74462425708771,
-    "g_model_loss": 0.4297899603843689,
+    "new_model_price": 69.32841539382935,
+    "g_model_loss": 0.37595677375793457,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.45800530910491943,
-        "delta_local_loss": 0.028223246335983276,
-        "delta_gap": -0.008758723735809326,
-        "contribution": 0.009732261300086975,
-        "reward": 54.98905470466876
+        "loss": 0.398787260055542,
+        "delta_local_loss": 0.04735615849494934,
+        "delta_gap": -0.004097998142242432,
+        "contribution": 0.021629080176353455,
+        "reward": 106.50041223896447
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.4395211637020111,
-        "delta_local_loss": 0.0054566264152526855,
-        "delta_gap": 0.009725421667098999,
-        "contribution": 0.007591024041175842,
-        "reward": 42.936287846686085
+        "loss": 0.4144648611545563,
+        "delta_local_loss": -0.001131981611251831,
+        "delta_gap": -0.019775599241256714,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.42602500319480896,
-        "delta_local_loss": 0.021272599697113037,
-        "delta_gap": 0.023221582174301147,
-        "contribution": 0.022247090935707092,
-        "reward": 124.92628759996352
+        "loss": 0.3841944932937622,
+        "delta_local_loss": 0.017099320888519287,
+        "delta_gap": 0.010494768619537354,
+        "contribution": 0.01379704475402832,
+        "reward": 68.1985768886361
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.4353350102901459,
-        "delta_local_loss": 0.013450145721435547,
-        "delta_gap": 0.013911575078964233,
-        "contribution": 0.01368086040019989,
-        "reward": 77.14836984868165
+        "loss": 0.36470240354537964,
+        "delta_local_loss": 0.021004289388656616,
+        "delta_gap": 0.029986858367919922,
+        "contribution": 0.02549557387828827,
+        "reward": 125.30101087239942
       }
     ]
   },
   {
     "round": 5,
-    "new_model_price": 68.94087225198746,
-    "g_model_loss": 0.4101651608943939,
+    "new_model_price": 69.53862994909286,
+    "g_model_loss": 0.35493531823158264,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.4233640432357788,
-        "delta_local_loss": 0.034641265869140625,
-        "delta_gap": 0.006425917148590088,
-        "contribution": 0.020533591508865356,
-        "reward": 99.4096702950768
+        "loss": 0.3748091459274292,
+        "delta_local_loss": 0.023978114128112793,
+        "delta_gap": 0.001147627830505371,
+        "contribution": 0.012562870979309082,
+        "reward": 124.64999849767355
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.4131540060043335,
-        "delta_local_loss": 0.026367157697677612,
-        "delta_gap": 0.0166359543800354,
-        "contribution": 0.021501556038856506,
-        "reward": 104.04639276484446
+        "loss": 0.4048830568790436,
+        "delta_local_loss": 0.009581804275512695,
+        "delta_gap": -0.02892628312110901,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.41680219769477844,
-        "delta_local_loss": 0.009222805500030518,
-        "delta_gap": 0.012987762689590454,
-        "contribution": 0.011105284094810486,
-        "reward": 54.01496753094442
+        "loss": 0.3707578480243683,
+        "delta_local_loss": 0.013436645269393921,
+        "delta_gap": 0.005198925733566284,
+        "contribution": 0.009317785501480103,
+        "reward": 92.60072495470003
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.42382895946502686,
-        "delta_local_loss": 0.011506050825119019,
-        "delta_gap": 0.005961000919342041,
-        "contribution": 0.00873352587223053,
-        "reward": 42.528969409134355
+        "loss": 0.362007200717926,
+        "delta_local_loss": 0.0026952028274536133,
+        "delta_gap": 0.013949573040008545,
+        "contribution": 0.008322387933731079,
+        "reward": 82.74927654762641
       }
     ]
   },
   {
     "round": 6,
-    "new_model_price": 69.05420869588852,
-    "g_model_loss": 0.3988315165042877,
+    "new_model_price": 69.60698068141937,
+    "g_model_loss": 0.3481002449989319,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.4133121371269226,
-        "delta_local_loss": 0.010051906108856201,
-        "delta_gap": -0.0031469762325286865,
-        "contribution": 0.0034524649381637573,
-        "reward": 44.283455778906465
+        "loss": 0.3519175946712494,
+        "delta_local_loss": 0.02289155125617981,
+        "delta_gap": 0.003017723560333252,
+        "contribution": 0.01295463740825653,
+        "reward": 106.73493016156476
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.40599918365478516,
-        "delta_local_loss": 0.00715482234954834,
-        "delta_gap": 0.004165977239608765,
-        "contribution": 0.005660399794578552,
-        "reward": 72.52399187608094
+        "loss": 0.3678360879421234,
+        "delta_local_loss": 0.037046968936920166,
+        "delta_gap": -0.012900769710540771,
+        "contribution": 0.012073099613189697,
+        "reward": 99.51522788315518
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.3991239368915558,
-        "delta_local_loss": 0.017678260803222656,
-        "delta_gap": 0.011041224002838135,
-        "contribution": 0.014359742403030396,
-        "reward": 183.19255234501261
+        "loss": 0.36010831594467163,
+        "delta_local_loss": 0.010649532079696655,
+        "delta_gap": -0.005172997713088989,
+        "contribution": 0.002738267183303833,
+        "reward": 22.675725794281153
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.4222927987575531,
-        "delta_local_loss": 0.0015361607074737549,
-        "delta_gap": -0.01212763786315918,
-        "contribution": 0,
-        "reward": 0.0
+        "loss": 0.3498634099960327,
+        "delta_local_loss": 0.01214379072189331,
+        "delta_gap": 0.005071908235549927,
+        "contribution": 0.008607849478721619,
+        "reward": 71.07411616099891
       }
     ]
   },
   {
     "round": 7,
-    "new_model_price": 69.15604799985886,
-    "g_model_loss": 0.38864758610725403,
+    "new_model_price": 69.6815288066864,
+    "g_model_loss": 0.340645432472229,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.40196385979652405,
-        "delta_local_loss": 0.01134827733039856,
-        "delta_gap": -0.003132343292236328,
-        "contribution": 0.004107967019081116,
-        "reward": 40.22274441768451
+        "loss": 0.34923622012138367,
+        "delta_local_loss": 0.0026813745498657227,
+        "delta_gap": -0.0011359751224517822,
+        "contribution": 0.0007726997137069702,
+        "reward": 14.344735154146578
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.399198055267334,
-        "delta_local_loss": 0.006801128387451172,
-        "delta_gap": -0.00036653876304626465,
-        "contribution": 0.0032172948122024536,
-        "reward": 31.515806730981627
+        "loss": 0.3577278256416321,
+        "delta_local_loss": 0.010108262300491333,
+        "delta_gap": -0.009627580642700195,
+        "contribution": 0.00024034082889556885,
+        "reward": 4.462979470528485
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.38959482312202454,
-        "delta_local_loss": 0.00952911376953125,
-        "delta_gap": 0.009236693382263184,
-        "contribution": 0.009382903575897217,
-        "reward": 91.63111357736314
+        "loss": 0.3457069993019104,
+        "delta_local_loss": 0.01440131664276123,
+        "delta_gap": 0.0023932456970214844,
+        "contribution": 0.008397281169891357,
+        "reward": 155.29987826313933
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.39653921127319336,
-        "delta_local_loss": 0.02575358748435974,
-        "delta_gap": 0.0022923052310943604,
-        "contribution": 0.01402294635772705,
-        "reward": 136.63033527397073
+        "loss": 0.3421800434589386,
+        "delta_local_loss": 0.007683366537094116,
+        "delta_gap": 0.005920201539993286,
+        "contribution": 0.006801784038543701,
+        "reward": 125.8924071121856
       }
     ]
   },
   {
     "round": 8,
-    "new_model_price": 69.19862866401672,
-    "g_model_loss": 0.3843895196914673,
+    "new_model_price": 69.74761843681335,
+    "g_model_loss": 0.3340364694595337,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.40584880113601685,
-        "delta_local_loss": -0.003884941339492798,
-        "delta_gap": -0.017201215028762817,
+        "loss": 0.3477995693683624,
+        "delta_local_loss": 0.0014366507530212402,
+        "delta_gap": -0.007154136896133423,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.39193519949913025,
-        "delta_local_loss": 0.007262855768203735,
-        "delta_gap": -0.0032876133918762207,
-        "contribution": 0.0019876211881637573,
-        "reward": 53.74417836065067
+        "loss": 0.34850773215293884,
+        "delta_local_loss": 0.009220093488693237,
+        "delta_gap": -0.007862299680709839,
+        "contribution": 0.0006788969039916992,
+        "reward": 11.073785255581324
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.38306477665901184,
-        "delta_local_loss": 0.006530046463012695,
-        "delta_gap": 0.0055828094482421875,
-        "contribution": 0.006056427955627441,
-        "reward": 163.4307542728157
+        "loss": 0.3394171893596649,
+        "delta_local_loss": 0.006289809942245483,
+        "delta_gap": 0.001228243112564087,
+        "contribution": 0.003759026527404785,
+        "reward": 61.22094823976653
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.38952863216400146,
-        "delta_local_loss": 0.0070105791091918945,
-        "delta_gap": -0.0008810460567474365,
-        "contribution": 0.003064766526222229,
-        "reward": 82.82506736653366
+        "loss": 0.32735979557037354,
+        "delta_local_loss": 0.014820247888565063,
+        "delta_gap": 0.013285636901855469,
+        "contribution": 0.014052942395210266,
+        "reward": 227.70526650465212
       }
     ]
   },
   {
     "round": 9,
-    "new_model_price": 69.26120817661285,
-    "g_model_loss": 0.37813156843185425,
+    "new_model_price": 69.7679477930069,
+    "g_model_loss": 0.33200353384017944,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.3907831013202667,
-        "delta_local_loss": 0.015065699815750122,
-        "delta_gap": -0.0063935816287994385,
-        "contribution": 0.004336059093475342,
-        "reward": 228.36768842335437
+        "loss": 0.3467416763305664,
+        "delta_local_loss": 0.0010578930377960205,
+        "delta_gap": -0.012705206871032715,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.3868042826652527,
-        "delta_local_loss": 0.0051309168338775635,
-        "delta_gap": -0.0024147629737854004,
-        "contribution": 0.0013580769300460815,
-        "reward": 71.63231157664565
+        "loss": 0.34156614542007446,
+        "delta_local_loss": 0.00694158673286438,
+        "delta_gap": -0.0075296759605407715,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.3861123025417328,
-        "delta_local_loss": -0.0030475258827209473,
-        "delta_gap": -0.001722782850265503,
+        "loss": 0.3451762795448303,
+        "delta_local_loss": -0.005759090185165405,
+        "delta_gap": -0.01113981008529663,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.3925386965274811,
-        "delta_local_loss": -0.0030100643634796143,
-        "delta_gap": -0.008149176836013794,
-        "contribution": 0,
-        "reward": 0.0
+        "loss": 0.3292485177516937,
+        "delta_local_loss": -0.0018887221813201904,
+        "delta_gap": 0.004787951707839966,
+        "contribution": 0.0014496147632598877,
+        "reward": 300.0
       }
     ]
   },
   {
     "round": 10,
-    "new_model_price": 69.32708710432053,
-    "g_model_loss": 0.37154367566108704,
+    "new_model_price": 69.77999746799469,
+    "g_model_loss": 0.33079856634140015,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.3804164528846741,
-        "delta_local_loss": 0.010366648435592651,
-        "delta_gap": -0.0022848844528198242,
-        "contribution": 0.004040881991386414,
-        "reward": 132.725486100602
+        "loss": 0.35085755586624146,
+        "delta_local_loss": -0.004115879535675049,
+        "delta_gap": -0.01885402202606201,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.38515326380729675,
-        "delta_local_loss": 0.0016510188579559326,
-        "delta_gap": -0.007021695375442505,
+        "loss": 0.3542236089706421,
+        "delta_local_loss": -0.012657463550567627,
+        "delta_gap": -0.022220075130462646,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.37968891859054565,
-        "delta_local_loss": 0.006423383951187134,
-        "delta_gap": -0.0015573501586914062,
-        "contribution": 0.0024330168962478638,
-        "reward": 79.9781743538683
+        "loss": 0.33700916171073914,
+        "delta_local_loss": 0.008167117834091187,
+        "delta_gap": -0.005005627870559692,
+        "contribution": 0.001580744981765747,
+        "reward": 32.946685616466915
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.38267919421195984,
-        "delta_local_loss": 0.00985950231552124,
-        "delta_gap": -0.004547625780105591,
-        "contribution": 0.0026559382677078247,
-        "reward": 87.29633954552969
+        "loss": 0.31774091720581055,
+        "delta_local_loss": 0.011507600545883179,
+        "delta_gap": 0.014262616634368896,
+        "contribution": 0.012885108590126038,
+        "reward": 267.05331438353306
       }
     ]
   },
   {
     "round": 11,
-    "new_model_price": 69.35184299945831,
-    "g_model_loss": 0.36906808614730835,
+    "new_model_price": 69.82548624277115,
+    "g_model_loss": 0.3262496888637543,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.37333011627197266,
-        "delta_local_loss": 0.007086336612701416,
-        "delta_gap": -0.0017864406108856201,
-        "contribution": 0.002649948000907898,
-        "reward": 300.0
+        "loss": 0.3428943455219269,
+        "delta_local_loss": 0.007963210344314575,
+        "delta_gap": -0.012095779180526733,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.37900567054748535,
-        "delta_local_loss": 0.006147593259811401,
-        "delta_gap": -0.007461994886398315,
+        "loss": 0.3441627323627472,
+        "delta_local_loss": 0.010060876607894897,
+        "delta_gap": -0.013364166021347046,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.378781795501709,
-        "delta_local_loss": 0.0009071230888366699,
-        "delta_gap": -0.007238119840621948,
-        "contribution": 0,
-        "reward": 0.0
+        "loss": 0.3300652503967285,
+        "delta_local_loss": 0.00694391131401062,
+        "delta_gap": 0.0007333159446716309,
+        "contribution": 0.0038386136293411255,
+        "reward": 137.82637437352145
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.4033089876174927,
-        "delta_local_loss": -0.020629793405532837,
-        "delta_gap": -0.03176531195640564,
-        "contribution": 0,
-        "reward": 0.0
+        "loss": 0.319751501083374,
+        "delta_local_loss": -0.0020105838775634766,
+        "delta_gap": 0.011047065258026123,
+        "contribution": 0.004518240690231323,
+        "reward": 162.17362562647855
       }
     ]
   },
   {
     "round": 12,
-    "new_model_price": 69.38402533531189,
-    "g_model_loss": 0.3658498525619507,
+    "new_model_price": 69.8054826259613,
+    "g_model_loss": 0.32825005054473877,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.36217719316482544,
-        "delta_local_loss": 0.011152923107147217,
-        "delta_gap": 0.00689089298248291,
-        "contribution": 0.009021908044815063,
-        "reward": 181.24992650544158
-      },
-      {
-        "walletId": "wallet_1",
-        "loss": 0.38482996821403503,
-        "delta_local_loss": -0.005824297666549683,
-        "delta_gap": -0.015761882066726685,
+        "loss": 0.3580019474029541,
+        "delta_local_loss": -0.015107601881027222,
+        "delta_gap": -0.03175225853919983,
         "contribution": 0,
         "reward": 0.0
       },
       {
+        "walletId": "wallet_1",
+        "loss": 0.3318205773830414,
+        "delta_local_loss": 0.01234215497970581,
+        "delta_gap": -0.005570888519287109,
+        "contribution": 0.0033856332302093506,
+        "reward": 300.0
+      },
+      {
         "walletId": "wallet_2",
-        "loss": 0.37636303901672363,
-        "delta_local_loss": 0.0024187564849853516,
-        "delta_gap": -0.007294952869415283,
+        "loss": 0.3299560546875,
+        "delta_local_loss": 0.00010919570922851562,
+        "delta_gap": -0.0037063658237457275,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.3802867829799652,
-        "delta_local_loss": 0.023022204637527466,
-        "delta_gap": -0.01121869683265686,
-        "contribution": 0.005901753902435303,
-        "reward": 118.75007349455842
+        "loss": 0.32674112915992737,
+        "delta_local_loss": -0.006989628076553345,
+        "delta_gap": -0.0004914402961730957,
+        "contribution": 0,
+        "reward": 0.0
       }
     ]
   },
   {
     "round": 13,
-    "new_model_price": 69.4479376077652,
-    "g_model_loss": 0.3594586253166199,
+    "new_model_price": 69.86085087060928,
+    "g_model_loss": 0.3227132260799408,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.36382976174354553,
-        "delta_local_loss": -0.0016525685787200928,
-        "delta_gap": 0.0020200908184051514,
-        "contribution": 0.0001837611198425293,
-        "reward": 4.264946989022827
+        "loss": 0.35326141119003296,
+        "delta_local_loss": 0.004740536212921143,
+        "delta_gap": -0.02501136064529419,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.36251741647720337,
-        "delta_local_loss": 0.022312551736831665,
-        "delta_gap": 0.0033324360847473145,
-        "contribution": 0.01282249391078949,
-        "reward": 295.7350530109772
+        "loss": 0.3309919238090515,
+        "delta_local_loss": 0.0008286535739898682,
+        "delta_gap": -0.002741873264312744,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.3720591068267822,
-        "delta_local_loss": 0.004303932189941406,
-        "delta_gap": -0.006209254264831543,
+        "loss": 0.33046698570251465,
+        "delta_local_loss": -0.0005109310150146484,
+        "delta_gap": -0.002216935157775879,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.38268154859542847,
-        "delta_local_loss": -0.002394765615463257,
-        "delta_gap": -0.016831696033477783,
-        "contribution": 0,
-        "reward": 0.0
+        "loss": 0.3202505111694336,
+        "delta_local_loss": 0.006490617990493774,
+        "delta_gap": 0.007999539375305176,
+        "contribution": 0.007245078682899475,
+        "reward": 300.0
       }
     ]
   },
   {
     "round": 14,
-    "new_model_price": 69.45933908224106,
-    "g_model_loss": 0.3583184778690338,
+    "new_model_price": 69.85570102930069,
+    "g_model_loss": 0.32322821021080017,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.3636195957660675,
-        "delta_local_loss": 0.00021016597747802734,
-        "delta_gap": -0.004160970449447632,
+        "loss": 0.35955721139907837,
+        "delta_local_loss": -0.00629580020904541,
+        "delta_gap": -0.03684398531913757,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.3629726767539978,
-        "delta_local_loss": -0.0004552602767944336,
-        "delta_gap": -0.0035140514373779297,
+        "loss": 0.3291705250740051,
+        "delta_local_loss": 0.0018213987350463867,
+        "delta_gap": -0.006457298994064331,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.36476045846939087,
-        "delta_local_loss": 0.007298648357391357,
-        "delta_gap": -0.005301833152770996,
-        "contribution": 0.0009984076023101807,
-        "reward": 300.0
+        "loss": 0.32375627756118774,
+        "delta_local_loss": 0.006710708141326904,
+        "delta_gap": -0.0010430514812469482,
+        "contribution": 0.002833828330039978,
+        "reward": 153.5832834758312
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.3810407817363739,
-        "delta_local_loss": 0.0016407668590545654,
-        "delta_gap": -0.02158215641975403,
-        "contribution": 0,
-        "reward": 0.0
+        "loss": 0.31878045201301575,
+        "delta_local_loss": 0.0014700591564178467,
+        "delta_gap": 0.003932774066925049,
+        "contribution": 0.0027014166116714478,
+        "reward": 146.4167165241688
       }
     ]
   },
   {
     "round": 15,
-    "new_model_price": 69.49980407953262,
-    "g_model_loss": 0.3542719781398773,
+    "new_model_price": 69.84919458627701,
+    "g_model_loss": 0.32387885451316833,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.3570658564567566,
-        "delta_local_loss": 0.006553739309310913,
-        "delta_gap": 0.0012526214122772217,
-        "contribution": 0.0039031803607940674,
-        "reward": 140.07121330174385
+        "loss": 0.3664049506187439,
+        "delta_local_loss": -0.006847739219665527,
+        "delta_gap": -0.043176740407943726,
+        "contribution": 0,
+        "reward": 75.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.3636622726917267,
-        "delta_local_loss": -0.0006895959377288818,
-        "delta_gap": -0.005343794822692871,
+        "loss": 0.33406686782836914,
+        "delta_local_loss": -0.004896342754364014,
+        "delta_gap": -0.01083865761756897,
         "contribution": 0,
-        "reward": 0.0
+        "reward": 75.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.35708171129226685,
-        "delta_local_loss": 0.0076787471771240234,
-        "delta_gap": 0.0012367665767669678,
-        "contribution": 0.004457756876945496,
-        "reward": 159.92878669825612
+        "loss": 0.32498544454574585,
+        "delta_local_loss": -0.0012291669845581055,
+        "delta_gap": -0.0017572343349456787,
+        "contribution": 0,
+        "reward": 75.0
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.3806528151035309,
-        "delta_local_loss": 0.0003879666328430176,
-        "delta_gap": -0.02233433723449707,
+        "loss": 0.32116714119911194,
+        "delta_local_loss": -0.0023866891860961914,
+        "delta_gap": 0.0020610690116882324,
         "contribution": 0,
-        "reward": 0.0
+        "reward": 75.0
       }
     ]
   },
   {
     "round": 16,
-    "new_model_price": 69.4561892747879,
-    "g_model_loss": 0.35863345861434937,
+    "new_model_price": 69.89507377147675,
+    "g_model_loss": 0.3192909359931946,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.35654476284980774,
-        "delta_local_loss": 0.0005210936069488525,
-        "delta_gap": -0.00227278470993042,
-        "contribution": 0,
-        "reward": 75.0
+        "loss": 0.32652366161346436,
+        "delta_local_loss": 0.03988128900527954,
+        "delta_gap": -0.0026448071002960205,
+        "contribution": 0.01861824095249176,
+        "reward": 236.73664369191155
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.3862365186214447,
-        "delta_local_loss": -0.022574245929718018,
-        "delta_gap": -0.03196454048156738,
+        "loss": 0.33621469140052795,
+        "delta_local_loss": -0.0021478235721588135,
+        "delta_gap": -0.01233583688735962,
         "contribution": 0,
-        "reward": 75.0
+        "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.3635667860507965,
-        "delta_local_loss": -0.006485074758529663,
-        "delta_gap": -0.00929480791091919,
+        "loss": 0.3299325108528137,
+        "delta_local_loss": -0.004947066307067871,
+        "delta_gap": -0.006053656339645386,
         "contribution": 0,
-        "reward": 75.0
+        "reward": 0.0
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.38226673007011414,
-        "delta_local_loss": -0.001613914966583252,
-        "delta_gap": -0.027994751930236816,
-        "contribution": 0,
-        "reward": 75.0
+        "loss": 0.3175812065601349,
+        "delta_local_loss": 0.0035859346389770508,
+        "delta_gap": 0.006297647953033447,
+        "contribution": 0.004941791296005249,
+        "reward": 63.26335630808844
       }
     ]
   },
   {
     "round": 17,
-    "new_model_price": 69.48697566986084,
-    "g_model_loss": 0.35555481910705566,
+    "new_model_price": 69.96240109205246,
+    "g_model_loss": 0.31255820393562317,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.35736092925071716,
-        "delta_local_loss": -0.0008161664009094238,
-        "delta_gap": 0.0012725293636322021,
-        "contribution": 0.00022818148136138916,
-        "reward": 13.028215983190277
-      },
-      {
-        "walletId": "wallet_1",
-        "loss": 0.3673967719078064,
-        "delta_local_loss": 0.018839746713638306,
-        "delta_gap": -0.008763313293457031,
-        "contribution": 0.005038216710090637,
-        "reward": 286.9717840168097
-      },
-      {
-        "walletId": "wallet_2",
-        "loss": 0.3624410629272461,
-        "delta_local_loss": 0.001125723123550415,
-        "delta_gap": -0.0038076043128967285,
+        "loss": 0.3316769599914551,
+        "delta_local_loss": -0.005153298377990723,
+        "delta_gap": -0.012386023998260498,
         "contribution": 0,
         "reward": 0.0
       },
       {
+        "walletId": "wallet_1",
+        "loss": 0.3331455588340759,
+        "delta_local_loss": 0.0030691325664520264,
+        "delta_gap": -0.013854622840881348,
+        "contribution": 0,
+        "reward": 0.0
+      },
+      {
+        "walletId": "wallet_2",
+        "loss": 0.3218657374382019,
+        "delta_local_loss": 0.008066773414611816,
+        "delta_gap": -0.0025748014450073242,
+        "contribution": 0.002745985984802246,
+        "reward": 300.0
+      },
+      {
         "walletId": "wallet_3",
-        "loss": 0.3753196597099304,
-        "delta_local_loss": 0.006947070360183716,
-        "delta_gap": -0.016686201095581055,
+        "loss": 0.3258608281612396,
+        "delta_local_loss": -0.008279621601104736,
+        "delta_gap": -0.006569892168045044,
         "contribution": 0,
         "reward": 0.0
       }
@@ -664,116 +664,116 @@
   },
   {
     "round": 18,
-    "new_model_price": 69.53619718551636,
-    "g_model_loss": 0.3506326675415039,
+    "new_model_price": 69.97371792793274,
+    "g_model_loss": 0.3114265203475952,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.35585883259773254,
-        "delta_local_loss": 0.0015020966529846191,
-        "delta_gap": -0.0003040134906768799,
-        "contribution": 0.0005990415811538696,
-        "reward": 12.911146057050875
+        "loss": 0.33391156792640686,
+        "delta_local_loss": -0.0022346079349517822,
+        "delta_gap": -0.02135336399078369,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.35530346632003784,
-        "delta_local_loss": 0.012093305587768555,
-        "delta_gap": 0.00025135278701782227,
-        "contribution": 0.0061723291873931885,
-        "reward": 132.66308215061017
+        "loss": 0.3262576460838318,
+        "delta_local_loss": 0.006887912750244141,
+        "delta_gap": -0.013699442148208618,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.35180944204330444,
-        "delta_local_loss": 0.01063162088394165,
-        "delta_gap": 0.0037453770637512207,
-        "contribution": 0.0071884989738464355,
-        "reward": 154.42577179233896
+        "loss": 0.32360002398490906,
+        "delta_local_loss": -0.0017342865467071533,
+        "delta_gap": -0.011041820049285889,
+        "contribution": 0,
+        "reward": 0.0
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.3749636113643646,
-        "delta_local_loss": 0.0003560483455657959,
-        "delta_gap": -0.01940879225730896,
-        "contribution": 0,
-        "reward": 0.0
+        "loss": 0.30898118019104004,
+        "delta_local_loss": 0.016879647970199585,
+        "delta_gap": 0.00357702374458313,
+        "contribution": 0.010228335857391357,
+        "reward": 300.0
       }
     ]
   },
   {
     "round": 19,
-    "new_model_price": 69.54470425844193,
-    "g_model_loss": 0.34978196024894714,
+    "new_model_price": 69.94287461042404,
+    "g_model_loss": 0.31451085209846497,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.35875600576400757,
-        "delta_local_loss": -0.0028971731662750244,
-        "delta_gap": -0.008123338222503662,
+        "loss": 0.33877187967300415,
+        "delta_local_loss": -0.00486031174659729,
+        "delta_gap": -0.027345359325408936,
         "contribution": 0,
-        "reward": 75.0
+        "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.35380107164382935,
-        "delta_local_loss": 0.001502394676208496,
-        "delta_gap": -0.0031684041023254395,
+        "loss": 0.33606505393981934,
+        "delta_local_loss": -0.009807407855987549,
+        "delta_gap": -0.02463853359222412,
         "contribution": 0,
-        "reward": 75.0
+        "reward": 0.0
       },
       {
         "walletId": "wallet_2",
-        "loss": 0.3547091484069824,
-        "delta_local_loss": -0.0028997063636779785,
-        "delta_gap": -0.004076480865478516,
+        "loss": 0.32184499502182007,
+        "delta_local_loss": 0.0017550289630889893,
+        "delta_gap": -0.010418474674224854,
         "contribution": 0,
-        "reward": 75.0
+        "reward": 0.0
       },
       {
         "walletId": "wallet_3",
-        "loss": 0.36758917570114136,
-        "delta_local_loss": 0.007374435663223267,
-        "delta_gap": -0.01695650815963745,
-        "contribution": 0,
-        "reward": 75.0
+        "loss": 0.302274227142334,
+        "delta_local_loss": 0.006706953048706055,
+        "delta_gap": 0.00915229320526123,
+        "contribution": 0.007929623126983643,
+        "reward": 300.0
       }
     ]
   },
   {
     "round": 20,
-    "new_model_price": 69.55750197172165,
-    "g_model_loss": 0.34850218892097473,
+    "new_model_price": 69.96567666530609,
+    "g_model_loss": 0.31223064661026,
     "submits": [
       {
         "walletId": "wallet_0",
-        "loss": 0.38681694865226746,
-        "delta_local_loss": -0.028060942888259888,
-        "delta_gap": -0.03703498840332031,
+        "loss": 0.3401045501232147,
+        "delta_local_loss": -0.0013326704502105713,
+        "delta_gap": -0.025593698024749756,
         "contribution": 0,
         "reward": 0.0
       },
       {
         "walletId": "wallet_1",
-        "loss": 0.3522176742553711,
-        "delta_local_loss": 0.001583397388458252,
-        "delta_gap": -0.00243571400642395,
+        "loss": 0.32404422760009766,
+        "delta_local_loss": 0.01202082633972168,
+        "delta_gap": -0.00953337550163269,
+        "contribution": 0.0012437254190444946,
+        "reward": 300.0
+      },
+      {
+        "walletId": "wallet_2",
+        "loss": 0.3194602131843567,
+        "delta_local_loss": 0.002384781837463379,
+        "delta_gap": -0.004949361085891724,
         "contribution": 0,
         "reward": 0.0
       },
       {
-        "walletId": "wallet_2",
-        "loss": 0.35104459524154663,
-        "delta_local_loss": 0.003664553165435791,
-        "delta_gap": -0.0012626349925994873,
-        "contribution": 0.0012009590864181519,
-        "reward": 300.0
-      },
-      {
         "walletId": "wallet_3",
-        "loss": 0.36078664660453796,
-        "delta_local_loss": 0.0068025290966033936,
-        "delta_gap": -0.01100468635559082,
+        "loss": 0.3121345639228821,
+        "delta_local_loss": -0.009860336780548096,
+        "delta_gap": 0.0023762881755828857,
         "contribution": 0,
         "reward": 0.0
       }
