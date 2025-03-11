@@ -82,12 +82,12 @@ class Node:
             v2.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
             v2.ToTensor()
         ])
-        train_dataset = datasets.FashionMNIST(
+        train_dataset = datasets.MNIST(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=True,
             download=True
         )
-        test_dataset = datasets.FashionMNIST(
+        test_dataset = datasets.MNIST(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=False,
             download=True,
