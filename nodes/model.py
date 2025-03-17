@@ -65,7 +65,7 @@ from torch import nn
 
 
 class ResNet18Classifier(nn.Module):
-    def __init__(self, num_classes=10):
+    def __init__(self, num_classes=100):
         super().__init__()
 
         self.resnet = torchvision.models.resnet18(pretrained=False)
@@ -76,5 +76,5 @@ class ResNet18Classifier(nn.Module):
     def forward(self, x):
         return self.resnet(x)
     
-model = ResNet18Classifier(10)
+model = ResNet18Classifier(100)
 torch.save(model.state_dict(), "./models/global.pt")

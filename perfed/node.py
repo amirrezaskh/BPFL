@@ -13,7 +13,7 @@ from torchvision.transforms import v2, ToTensor
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 class ResNet18Classifier(nn.Module):
-    def __init__(self, num_classes=10):
+    def __init__(self, num_classes=100):
         super().__init__()
 
         self.resnet = torchvision.models.resnet18(pretrained=False)
@@ -62,7 +62,7 @@ class Node:
         self.wd = 1e-4
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.model = ResNet18Classifier(num_classes=10).to(self.device)
+        self.model = ResNet18Classifier(num_classes=100).to(self.device)
         self.get_data()
         self.save_random_tests()
 
@@ -74,19 +74,21 @@ class Node:
             v2.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
             v2.ToTensor()
         ])
-        train_dataset = datasets.CIFAR10(
+        train_dataset = datasets.CIFAR100(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=True,
             download=True
         )
-        test_dataset = datasets.CIFAR10(
+        test_dataset = datasets.CIFAR100(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=False,
             download=True,
             transform=ToTensor()
         )
 
-        data_portion = len(train_dataset) // self.num_nodes
+        portions = (self.num_nodes * (self.num_nodes + 1) * (2*self.num_nodes + 1)) // 6
+        portion_size = len(train_dataset) // portions
+        data_portion = portion_size * ((self.index + 1) ** 2)   
         indexes = [random.randint(0, len(train_dataset) - 1)
                    for _ in range(data_portion)]
         test_portion = len(test_dataset) // self.num_nodes
@@ -99,11 +101,11 @@ class Node:
         self.test_dataset = torch.utils.data.Subset(test_dataset, test_indexes[test_portion//2:])
 
         self.train_dataloader = DataLoader(
-            self.train_dataset, batch_size=self.batch_size)
+            self.train_dataset, batch_size=self.batch_size, pin_memory=True)
         self.val_dataloader = DataLoader(
-            self.val_dataset, batch_size=test_portion//2)
+            self.val_dataset, batch_size=test_portion//2, pin_memory=True)
         self.test_dataloader = DataLoader(
-            self.test_dataset, batch_size=test_portion//2)
+            self.test_dataset, batch_size=test_portion//2, pin_memory=True)
     
     def save_random_tests(self):
         test_portion = len(self.test_dataset) // self.num_nodes
@@ -135,15 +137,21 @@ class Node:
     def train(self, path):
         self.model.load_state_dict(torch.load(path))
         self.model.to(self.device)
+        
         optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr, weight_decay=self.wd)
         loss_fn = nn.CrossEntropyLoss()
         scheduler = ReduceLROnPlateau(optimizer, "min", patience=self.epochs//6)
+
+        torch.backends.cudnn.benchmark = True
+        
         for e in range(self.epochs):
             print(f"Epoch {e+1}:")
             self.train_epoch(loss_fn, optimizer)
             val_loss = self.validate_epoch(loss_fn)
             scheduler.step(val_loss)
-
+            torch.cuda.empty_cache()
+            
+        self.model.cpu()
         torch.save(self.model.state_dict(), self.model_path)
         requests.post("http://localhost:3000/api/model/",
                       json={
