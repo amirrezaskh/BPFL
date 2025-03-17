@@ -86,9 +86,9 @@ class Node:
             transform=ToTensor()
         )
 
-        portions = (self.num_nodes * (self.num_nodes + 1) * (2*self.num_nodes + 1)) // 6
+        portions = self.num_nodes * (self.num_nodes + 1) // 2
         portion_size = len(train_dataset) // portions
-        data_portion = portion_size * ((self.index + 1) ** 2)   
+        data_portion = portion_size * (self.index + 1)    
         indexes = [random.randint(0, len(train_dataset) - 1)
                    for _ in range(data_portion)]
         test_portion = len(test_dataset) // self.num_nodes
