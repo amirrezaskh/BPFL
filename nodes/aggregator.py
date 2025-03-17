@@ -23,7 +23,7 @@ class Aggregator:
         self.gamma_max = 0.7
         self.p = 0.5
         self.contribution_factor = 0.5
-        self.num_classes = 10
+        self.num_classes = 100
         self.curr_round = 0
         self.results = {}
         self.prev_losses = {}
@@ -104,17 +104,9 @@ class Aggregator:
         return np.minimum(np.power((values / max_val), self.p), self.gamma_max)
 
     def update_personalized_models(self, submits):
-        gammas = self.get_gammas([submit["contribution"] for submit in submits])
         for i in range(len(submits)):
-            model_state = submits[i]["model"].state_dict()
-            model_params = {key: torch.zeros_like(value, dtype=torch.float32, device="cpu") 
-                            for key, value in model_state.items()}
             g_model_state = self.g_model.state_dict()
-            with torch.no_grad():
-                for key in model_params:
-                    model_params[key] = ((1 - gammas[i]) * model_state[key].cpu() +
-                                         gammas[i] * g_model_state[key].cpu())
-            submits[i]["model"].load_state_dict(model_params)
+            submits[i]["model"].load_state_dict(g_model_state)
             model_path = os.path.join(self.cwd, "models", f"g_model_{i}.pt")
             torch.save(submits[i]["model"].state_dict(), model_path)
             submits[i]["model_path"] = model_path
@@ -131,7 +123,7 @@ class Aggregator:
 
     def update_global_model(self, submits):
         self.g_model = ResNet18Classifier(self.num_classes).to(self.device)
-        weights = self.softmax([submit["contribution"] for submit in submits])
+        weights = np.ones(len(submits)) / len(submits)
         model_state = self.g_model.state_dict()
         model_params = {key: torch.zeros_like(value, dtype=torch.float32, device="cpu") 
                         for key, value in model_state.items()}
