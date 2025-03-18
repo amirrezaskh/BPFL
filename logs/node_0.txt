@@ -1,33 +1,27 @@
-/home/cs/grad/sokhanka/miniconda3/envs/data-science/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
-  warnings.warn(
-/home/cs/grad/sokhanka/miniconda3/envs/data-science/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
-  warnings.warn(msg)
 /home/cs/grad/sokhanka/miniconda3/envs/data-science/lib/python3.10/site-packages/torchvision/transforms/v2/_deprecated.py:42: UserWarning: The transform `ToTensor()` is deprecated and will be removed in a future release. Instead, please use `v2.Compose([v2.ToImage(), v2.ToDtype(torch.float32, scale=True)])`.Output is equivalent up to float precision.
   warnings.warn(
-Files already downloaded and verified
-Files already downloaded and verified
  * Serving Flask app 'node0'
  * Debug mode: off
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://localhost:8000
 [33mPress CTRL+C to quit[0m
-127.0.0.1 - - [18/Mar/2025 14:42:46] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:44:47] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:46:45] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:48:53] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:51:07] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:53:30] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:55:54] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:58:20] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:00:50] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:03:31] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:06:06] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:08:44] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:11:23] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:14:02] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:16:43] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:19:26] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:22:05] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:24:57] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:27:41] "POST /round/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:30:27] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:19:35] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:21:26] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:23:21] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:25:12] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:27:01] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:28:50] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:30:57] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:32:50] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:34:49] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:36:44] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:38:38] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:40:34] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:42:41] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:44:34] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:46:37] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:48:43] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:50:48] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:52:41] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:54:48] "POST /round/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:56:39] "POST /round/ HTTP/1.1" 200 -

@@ -12,18 +12,26 @@ from torch.utils.data import DataLoader, Dataset
 from torchvision.transforms import v2, ToTensor
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
-class ResNet18Classifier(nn.Module):
-    def __init__(self, num_classes=100):
+class LeNet5(nn.Module):
+    def __init__(self, num_classes=10):
         super().__init__()
-
-        self.resnet = torchvision.models.resnet18(pretrained=False)
-        self.resnet.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1, bias=False)
-        self.resnet.maxpool = nn.Identity()
-        self.resnet.fc = nn.Linear(self.resnet.fc.in_features, num_classes)
+        self.conv1 = nn.Conv2d(1, 6, kernel_size=5, stride=1)
+        self.ap = nn.AvgPool2d(kernel_size=2, stride=2)
+        self.conv2 = nn.Conv2d(6, 16, kernel_size=5, stride=1)
+        self.fc1 = nn.Linear(16 * 4 * 4, 120)
+        self.fc2 = nn.Linear(120, 84)
+        self.fc3 = nn.Linear(84, num_classes)
+        self.tanh = nn.Tanh()
 
     def forward(self, x):
-        return self.resnet(x)
-
+        x = self.tanh(self.conv1(x))
+        x = self.tanh(self.ap(x))
+        x = self.tanh(self.conv2(x))
+        x = self.tanh(self.ap(x))
+        x = torch.flatten(x, 1)
+        x = self.tanh(self.fc1(x))
+        x = self.tanh(self.fc2(x))
+        return self.fc3(x)
 
 class CustomDataset(Dataset):
     def __init__(self, subset, transform=None):
@@ -62,7 +70,7 @@ class Node:
         self.wd = 1e-4
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.model = ResNet18Classifier(num_classes=10).to(self.device)
+        self.model = LeNet5(num_classes=10).to(self.device)
         self.get_data()
         self.save_random_tests()
 
@@ -74,19 +82,21 @@ class Node:
             v2.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
             v2.ToTensor()
         ])
-        train_dataset = datasets.CIFAR10(
+        train_dataset = datasets.FashionMNIST(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=True,
             download=True
         )
-        test_dataset = datasets.CIFAR10(
+        test_dataset = datasets.FashionMNIST(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=False,
             download=True,
             transform=ToTensor()
         )
 
-        data_portion = len(train_dataset) // self.num_nodes    
+        portions = (self.num_nodes * (self.num_nodes + 1) * (2*self.num_nodes + 1)) // 6
+        portion_size = len(train_dataset) // portions
+        data_portion = portion_size * ((self.index + 1) ** 2)  
         indexes = [random.randint(0, len(train_dataset) - 1)
                    for _ in range(data_portion)]
         test_portion = len(test_dataset) // self.num_nodes
@@ -99,11 +109,11 @@ class Node:
         self.test_dataset = torch.utils.data.Subset(test_dataset, test_indexes[test_portion//2:])
 
         self.train_dataloader = DataLoader(
-            self.train_dataset, batch_size=self.batch_size, pin_memory=True)
+            self.train_dataset, batch_size=self.batch_size)
         self.val_dataloader = DataLoader(
-            self.val_dataset, batch_size=test_portion//2, pin_memory=True)
+            self.val_dataset, batch_size=test_portion//2)
         self.test_dataloader = DataLoader(
-            self.test_dataset, batch_size=test_portion//2, pin_memory=True)
+            self.test_dataset, batch_size=test_portion//2)
     
     def save_random_tests(self):
         test_portion = len(self.test_dataset) // self.num_nodes
@@ -135,21 +145,15 @@ class Node:
     def train(self, path):
         self.model.load_state_dict(torch.load(path))
         self.model.to(self.device)
-        
         optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr, weight_decay=self.wd)
         loss_fn = nn.CrossEntropyLoss()
         scheduler = ReduceLROnPlateau(optimizer, "min", patience=self.epochs//6)
-
-        torch.backends.cudnn.benchmark = True
-        
         for e in range(self.epochs):
             print(f"Epoch {e+1}:")
             self.train_epoch(loss_fn, optimizer)
             val_loss = self.validate_epoch(loss_fn)
             scheduler.step(val_loss)
-            torch.cuda.empty_cache()
-            
-        self.model.cpu()
+
         torch.save(self.model.state_dict(), self.model_path)
         requests.post("http://localhost:3000/api/model/",
                       json={

@@ -1,29 +1,25 @@
-/home/cs/grad/sokhanka/miniconda3/envs/data-science/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
-  warnings.warn(
-/home/cs/grad/sokhanka/miniconda3/envs/data-science/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
-  warnings.warn(msg)
  * Serving Flask app 'aggregator'
  * Debug mode: off
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://localhost:8080
 [33mPress CTRL+C to quit[0m
-127.0.0.1 - - [18/Mar/2025 14:43:12] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:45:11] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:47:16] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:49:30] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:51:54] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:54:19] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:56:47] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 14:59:17] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:01:54] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:04:31] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:07:09] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:09:48] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:12:25] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:15:06] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:17:50] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:20:32] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:23:22] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:26:06] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:28:52] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [18/Mar/2025 15:31:40] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:21:11] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:23:06] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:24:57] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:26:47] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:28:35] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:30:42] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:32:36] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:34:34] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:36:29] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:38:23] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:40:19] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:42:26] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:44:19] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:46:22] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:48:28] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:50:33] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:52:26] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:54:33] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:56:23] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 17:58:12] "POST /aggregate/ HTTP/1.1" 200 -
