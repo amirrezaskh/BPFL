@@ -7,23 +7,23 @@
 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://localhost:8080
 [33mPress CTRL+C to quit[0m
-127.0.0.1 - - [17/Mar/2025 18:48:20] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 18:51:08] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 18:53:56] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 18:56:46] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 18:59:41] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:02:38] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:05:33] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:08:33] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:11:32] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:14:33] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:17:33] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:20:42] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:23:48] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:26:57] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:30:04] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:33:14] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:36:26] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:39:41] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:42:57] "POST /aggregate/ HTTP/1.1" 200 -
-127.0.0.1 - - [17/Mar/2025 19:46:11] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:28:41] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:31:00] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:33:21] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:35:47] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:38:17] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:40:50] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:43:24] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:46:00] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:48:39] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:51:16] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:53:56] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:56:37] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 10:59:20] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 11:02:02] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 11:04:46] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 11:07:31] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 11:10:19] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 11:13:06] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 11:15:55] "POST /aggregate/ HTTP/1.1" 200 -
+127.0.0.1 - - [18/Mar/2025 11:18:44] "POST /aggregate/ HTTP/1.1" 200 -
