@@ -23,7 +23,7 @@ class Aggregator:
         self.gamma_max = 0.7
         self.p = 0.5
         self.contribution_factor = 0.5
-        self.num_classes = 100
+        self.num_classes = 10
         self.curr_round = 0
         self.results = {}
         self.prev_losses = {}

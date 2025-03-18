@@ -62,7 +62,7 @@ class Node:
         self.wd = 1e-4
 
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.model = ResNet18Classifier(num_classes=100).to(self.device)
+        self.model = ResNet18Classifier(num_classes=10).to(self.device)
         self.get_data()
         self.save_random_tests()
 
@@ -74,12 +74,12 @@ class Node:
             v2.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
             v2.ToTensor()
         ])
-        train_dataset = datasets.CIFAR100(
+        train_dataset = datasets.CIFAR10(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=True,
             download=True
         )
-        test_dataset = datasets.CIFAR100(
+        test_dataset = datasets.CIFAR10(
             root="/home/cs/grad/sokhanka/Documents/perfed/nodes/data",
             train=False,
             download=True,
