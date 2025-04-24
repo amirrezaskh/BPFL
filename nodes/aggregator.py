@@ -20,7 +20,7 @@ class Aggregator:
         self.global_model_path = os.path.join(self.cwd, "models", "global.pt")
         self.device = "cpu"
         self.loss_fn = nn.CrossEntropyLoss()
-        self.gamma_max = 0.7
+        self.gamma_max = 0.95
         self.p = 0.5
         self.contribution_factor = 0.5
         self.num_classes = 100
