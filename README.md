@@ -243,12 +243,6 @@ The system operates with:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- **Hyperledger Fabric Community** for blockchain infrastructure
-- **PyTorch Team** for deep learning framework
-- **Research Community** for foundational federated learning research
-
 ## Contact
 
 **Amirreza Sokhankhosh**
