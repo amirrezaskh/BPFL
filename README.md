@@ -239,38 +239,6 @@ The system operates with:
 - **1 API Gateway** (port 3000)
 - **Hyperledger Fabric Network** (ports 7051, 7054, 9051, etc.)
 
-## Research Impact
-
-This work contributes to the federated learning and blockchain communities by:
-
-1. **Novel Integration**: First comprehensive framework combining personalized FL with blockchain incentives
-2. **Practical Implementation**: Production-ready system with real blockchain infrastructure  
-3. **Extensive Evaluation**: Systematic analysis across 38 experimental configurations
-4. **Open Source**: Fully reproducible research with comprehensive documentation
-
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{sokhankhosh2024bpfl,
-  title={Blockchain-enabled Personalized Federated Learning: A Comprehensive Framework},
-  author={Sokhankhosh, Amirreza},
-  journal={arXiv preprint},
-  year={2024}
-}
-```
-
-## Contributing
-
-We welcome contributions! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit changes (`git commit -am 'Add new feature'`)
-4. Push to branch (`git push origin feature/new-feature`)
-5. Create a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -291,5 +259,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
   <p><strong>🚀 Advancing Federated Learning through Blockchain Innovation 🚀</strong></p>
-  <p><em>Built with ❤️ for the decentralized ML community</em></p>
 </div>
