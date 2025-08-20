@@ -21,13 +21,13 @@ This repository contains the implementation of **Blockchain-enabled Personalized
 ## Architecture
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Client Nodes  │    │   Aggregator    │    │   Blockchain    │
-│                 │    │                 │    │    Network      │
+┌─────────────────┐    ┌─────────────────┐    ┌──────────────────┐
+│   Client Nodes  │    │   Aggregator    │    │   Blockchain     │
+│                 │    │                 │    │    Network       │
 │ • Local Training│◄──►│ • Model Fusion  │◄──►│ • Smart Contracts│
 │ • Data Privacy  │    │ • Contribution  │    │ • Token System   │
 │ • Model Upload  │    │   Assessment    │    │ • Audit Trail    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
+└─────────────────┘    └─────────────────┘    └──────────────────┘
 ```
 
 ## Project Structure
